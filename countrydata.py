@@ -259,6 +259,4 @@ class Data():
             self.RefreshData()
         except:
             print(f'An Error Occured! Please do the following.\n1) Check your internet connection\n2) There might be an update in the databases. Wait for a minute.')
-    
-
 d1 = Data()
