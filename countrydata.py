@@ -3,9 +3,12 @@ import json
 import datetime
 import time
 import os
+import keys
 
-API_KEY = "tNjwteT3yGDr"
-PROJECT_TOKEN = "tnodRHPNMECn"
+# For security, I saved project token and api_key in another python file and imported them to the main .py file
+PROJECT_TOKEN = keys.PROJECT_TOKEN
+API_KEY = keys.API_KEY
+
 
 keyWords = {'Cases':['case','cases','c'],             # These keywords are the possible inputs the user can type in
             'Death':['death','deaths','dead','deads','d'],   
@@ -251,7 +254,7 @@ class Data():
                 return (x["value"])
 
     def WriteManual(self):
-        print(f'Welcome to COVID-19 Tracker by Alp Tuna.\nInformation taken from: https://www.worldometers.info/coronavirus/')
+        print(f'Welcome to COVID-19 Tracker\nInformation taken from: https://www.worldometers.info/coronavirus/')
 
     def __init__(self):
         try:
@@ -259,4 +262,6 @@ class Data():
             self.RefreshData()
         except:
             print(f'An Error Occured! Please do the following.\n1) Check your internet connection\n2) There might be an update in the databases. Wait for a minute.')
+    
+
 d1 = Data()
