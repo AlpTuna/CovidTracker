@@ -12,4 +12,4 @@ Covid Tracker is a software that tracks the instantaneous number of cases and de
 
 Covid Tracker uses different algorithms and data structures. Some algorithms used in this project are sorting algorithms, list comprehensions, string formattings, reading and writing files. The project also retrieves data from the Parsehub servers and creates/deletes runs when needed.
 
-NOTE: I got the idea of making the COVID Tracker app by the youtuber 'Tech With Tim'. Big thanks to him for showing the fundamentals of ParseHub and the basics of the project.
+NOTE: I got the idea of making the COVID Tracker app by the youtuber 'Tech With Tim' (@techwithtim). Big thanks to him for showing the fundamentals of ParseHub and the basics of the project.
